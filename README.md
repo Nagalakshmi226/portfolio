@@ -3,7 +3,7 @@
 This is my personal portfolio website built using **HTML**, **CSS**, and **JavaScript**. It showcases my skills, projects, and contact information.
 
 ## 🌐 Live Preview
-[Click here to view the portfolio](https://your-username.github.io/portfolio/)  
+[Click here to view the portfolio](https://Nagalakshmi226.github.io/portfolio/)  
 
 
 ## 📁 Features
