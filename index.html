@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Naga Lakshmi Aurangabad<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Naga Lakshmi</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Full-Stack Developer</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>Hi, I'm Naga Lakshmi, CSE undergrad, Passionate about building engaging and responsive web applications. With hands-on experience in both front-end and back-end technologies, I specialize in creating user-friendly interfaces. I enjoy learning new things and I'm always eager to explore new tools and technologiesin full-stack and DevOps world.
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn">Let's Talk</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+    <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <div class="about-img">
+        <img src="profile.png" alt="">
+        <span class="circle-spin"></span>
+        <span class="animate scroll" style="--i:2;"></span>
+    </div>
+
+    <div class="about-content">
+        <h3>Hi there! Glad to see you here.<span class="animate scroll" style="--i:3;"></span></h3>
+        <p>
+            Hello! My name is Naga Lakshmi, a Computer Science undergrad at SAHE University. My passion lies at the intersection of front-end creativity and back-end logic, which led me to explore the world of full-stack development and DevOps. I'm enthusiastic about technologies that power the web — from crafting responsive interfaces to managing databases. I actively deepen my knowledge in areas like web development, cloud infrastructure, database systems, and computer networks. Currently, I'm looking for internships in full-stack development where I can apply and grow my skills in both front-end and back-end technologies. Additionally, I have built solid foundation in Data Structures and Algorithms, which strengthens my problem-solving abilities and contributes to my technical proficiency.
+        </p>
+
+        <p class="highlighted-line">
+            <strong>Let's connect, collaborate, and turn ideas into impactful solutions.</strong>
+        </p>
+
+        <span class="animate scroll" style="--i:4;"></span>
+
+        <div class="btn-box btns">
+            <a href="#contact" class="btn">Contact Me</a>
+            <span class="animate scroll" style="--i:5;"></span>
+        </div>
+    </div>
+</section>
+
+    <!-- education section design -->
+    <section class="education" id="education">
+    <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <!-- Flex container for side-by-side layout -->
+    <div class="education-row">
+        <!-- Education Column -->
+        <div class="education-column">
+            <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+            <div class="education-box">
+                <!-- Education 1 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2008 - 2020</div>
+                        <h3>Little Angels High School</h3>
+                        <p>Completed primary and secondary education with strong academic performance. 
+                           Participated in various science fairs, quiz competitions, and school-level tech activities. 
+                           Developed a strong interest in computers and technology during this period.</p>
+                    </div>
+                </div>
+
+                <!-- Education 2 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2023</div>
+                        <h3>AANM & VVRSR Polytechnic College (Diploma in Computer Engineering)</h3>
+                        <p>Gained a solid foundation in core computer engineering subjects including Programming, Networking, and Database Management Systems. 
+                           Completed a diploma project on “Credit Card Fraud Detection System.” 
+                           Graduated with distinction and built a strong foundation in technical skills.</p>
+                    </div>
+                </div>
+
+                <!-- Education 3 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2023 - 2026</div>
+                        <h3>Velagapudi Ramakrishna Siddhartha Engineering College</h3>
+                        <p>Pursuing B.Tech in Computer Science and Engineering with a focus on Machine Learning, IoT, and Full Stack Development. 
+                           Worked on projects like IoT-based Speed breakers and Potholes Detection System and Touchless Fingerprint Recognition System. 
+                           Actively involved in tech clubs and hackathons.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Column -->
+        <div class="education-column">
+            <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+            <div class="education-box">
+                <!-- Experience 1 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> January 2023 - June 2023</div>
+                        <h3>Full Stack Developer - Intern</h3>
+                        <p>In my final year of diploma, I worked as a SWE Intern at Lineysha and Thevan Technologies, where I focused on Python full-stack development. I got to be part of a Credit Card Fraud Detection project, which really helped me improve my skills in Python and Django. This hands-on experience enhanced my full-stack development skills and provided practical insights into API designing and deployment.</p>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> September 2023 - November 2023</div>
+                        <h3>Android Developer - Intern</h3>
+                        <p>Excited to share that I've successfully completed the Android App Development virtual internship with Google Developers, in collaboration with AICTE and Eduskills! This experience gave me hands-on exposure on building Android apps using Jetpack Compose, while also helping me improve my UI/UX and problem-solving skills. </p>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> January 2024 - March 2024</div>
+                        <h3> AWS Cloud Fundamentals  - Intern</h3>
+                        <p>Thrilled to announce the successful completion of my AWS Cloud virtual internship, facilitated by AICTE in partnership with Eduskills. This program provided hands-on experience with key AWS services, deepening my understanding of cloud computing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>React.js <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>67%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Canva Design <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Instagram Marketing <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section design-->
+    <section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="projects-row">
+        <div class="project-box">
+            <h3>Touchless Fingerprint Recognition</h3>
+            <p>A touchless biometric system using Python & ESP32-CAM, with OpenCV image processing and matching.</p>
+            <a href="https://github.com/Nagalakshmi226/touchless-fingerprint " class="btn">Source Code</a>
+        </div>
+
+        <div class="project-box">
+            <h3>IoT Road Hazard Detection</h3>
+            <p>Detects potholes & speed breakers with Arduino + sensors. Designed to prevent accidents in real-time.</p>
+            <a href="https://github.com/Nagalakshmi226/iot-road-hazard-detection" class="btn">Source Code</a>
+        </div>
+
+        <div class="project-box">
+            <h3>Personal Portfolio</h3>
+            <p>A blog platform using MERN stack with auth, post CRUD, and deployed on Render.</p>
+            <a href="https://github.com/Nagalakshmi226/portfolio" class="btn">Source Code</a>
+        </div>
+    </div>
+</section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Full Name" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Email" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="textarea-field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <span class="focus"></span>
+            <span class="animate scroll" style="--i:7;"></span>
+        </div>
+
+        <div class="btn-box btns">
+            <button type="submit" class="btn">Submit</button>
+            <span class="animate scroll" style="--i:9;"></span>
+        </div>
+    </form>
+</section>
+
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2025 Copyright Nagalakshmi Aurangabad, <br> 
+                All rights reserved.</p>
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
